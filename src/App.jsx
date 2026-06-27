@@ -339,6 +339,11 @@ export default function MovingInventory() {
 
   const t = THEMES[dark ? "dark" : "light"];
 
+  useEffect(() => {
+    document.documentElement.style.background = t.bg;
+    document.body.style.background = t.bg;
+  }, [t.bg]);
+
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 8 } })
   );
