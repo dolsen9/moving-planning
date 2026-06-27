@@ -92,21 +92,36 @@ const STORAGE_KEY = "moving-inventory-items-v1";
 const THEME_KEY = "moving-inventory-theme";
 
 const REAL_ITEMS = [
-  { name: "Ashley Bixler Sofa (3-seat)", room: "Living Room", qty: 1, cuft: 64.3, l: 79, w: 38, h: 37, lbs: 121, estimated: true, url: "https://www.amazon.com/Signature-Design-Ashley-Bixler-Sofas/dp/B0D6GZSYCM" },
-  { name: "Flash Furniture Whitney desk chair", room: "Office", qty: 1, cuft: 17.5, l: 27, w: 26, h: 43, estimated: true, url: "https://www.amazon.com/Flash-Furniture-Leather-Executive-Swivel/dp/B01MQYP11W" },
-  { name: "Marsail ergonomic desk chair", room: "Office", qty: 1, cuft: 14.4, l: 25, w: 25, h: 39, estimated: true, url: "https://www.amazon.com/Marsail-Ergonomic-Office-Chair-Adjustable/dp/B0CP22DQQS" },
-  { name: "Corrigan Studio Ljubka swivel stool", room: "Dining Room", qty: 4, cuft: 10.5, l: 22, w: 22, h: 38, estimated: true, url: "https://www.wayfair.com/furniture/pdp/corrigan-studio-ljubka-swivel-stools-w110120715.html" },
-  { name: "Hazo Haus washable 8x10 rug", room: "Living Room", qty: 1, cuft: 3, l: 120, w: 96, h: 0.25, estimated: true, url: "https://www.amazon.com/Hazo-Haus-Washable-Oriental-Resistant/dp/B0DYV556CG" },
-  { name: "Vintage 3x8 runner rug", room: "Other", qty: 1, cuft: 1.5, l: 96, w: 36, h: 0.25, estimated: true },
-  { name: "Lahome jute-look rug", room: "Other", qty: 1, cuft: 2.5, l: 84, w: 60, h: 0.25, estimated: true, url: "https://www.amazon.com/Lahome-Farmhouse-Washable-Outdoor-Natural/dp/B0CQYD4FPB" },
-  { name: "RoomTalks mid-century rug", room: "Living Room", qty: 1, cuft: 3, l: 120, w: 96, h: 0.2, estimated: true, url: "https://www.amazon.com/RoomTalks-Washable-Aesthetic-8x10-Contemporary/dp/B0DBLLP75B" },
-  { name: "BESTSWEETIE 8x10 rug", room: "Living Room", qty: 1, cuft: 3, l: 120, w: 96, h: 0.25, estimated: true, url: "https://www.amazon.com/BESTSWEETIE-Washable-Vintage-Bedroom-Dinning/dp/B0CB6B8QKR" },
-  { name: "Mohawk non-slip rug pad", room: "Other", qty: 3, cuft: 1, l: 120, w: 96, h: 0.25, estimated: true, url: "https://www.amazon.com/Mohawk-Home-Surface-Hardwood-Surfaces/dp/B007T58OM0" },
-  { name: "YOMT TV floor stand/mount", room: "Living Room", qty: 1, cuft: 9.8, l: 22, w: 15, h: 52, lbs: 30, estimated: true, url: "https://www.amazon.com/YOMT-Floor-TV-Stand-Universal/dp/B08BLBRRKC" },
-  { name: "Casper Element mattress (King)", room: "Bedroom", qty: 1, cuft: 34.7, l: 76, w: 80, h: 10, estimated: true, url: "https://www.amazon.com/Casper-Sleep-Element-Mattress-California/dp/B085HDS3LQ" },
-  { name: 'ARTPOWER 55" fluted TV console', room: "Living Room", qty: 1, cuft: 10.1, l: 55, w: 13, h: 25, lbs: 37, estimated: true, url: "https://www.amazon.com/ARTPOWER-Century-Console-Entertainment-Television/dp/B0CVX66F1Z" },
-  { name: 'HANXIN 78" convertible sofa (open/assembled)', room: "Living Room", qty: 1, cuft: 45.8, l: 78, w: 39, h: 26, estimated: true, url: "https://www.amazon.com/HANXIN-Convertible-Mattress-Fixed-Shape-Boneless/dp/B0FNMYJ664" },
-  { name: "Chuhay bed frame — disassembled", room: "Bedroom", qty: 1, cuft: 10, l: 80, w: 6, h: 36, estimated: true },
+  { name: "Ashley Bixler Sofa (3-seat)", room: "Living Room", qty: 1, cuft: 64.3, l: 79, w: 38, h: 37, lbs: 116, estimated: true, url: "https://www.amazon.com/Signature-Design-Ashley-Bixler-Sofas/dp/B0D6GZSYCM" },
+  { name: "Flash Furniture Whitney desk chair", room: "Office", qty: 1, cuft: 17.5, l: 27, w: 26, h: 43, lbs: 30, estimated: true, url: "https://www.amazon.com/Flash-Furniture-Leather-Executive-Swivel/dp/B01MQYP11W" },
+  { name: "Marsail ergonomic desk chair", room: "Office", qty: 1, cuft: 11.2, l: 21, w: 22, h: 42, lbs: 27.1, estimated: true, url: "https://a.co/d/0dbycjzB" },
+  { name: "Corrigan Studio Ljubka swivel stool", room: "Dining Room", qty: 4, cuft: 9.7, l: 20, w: 22, h: 38, lbs: 23, estimated: true, url: "https://www.wayfair.com/furniture/pdp/corrigan-studio-ljubka-swivel-stools-w110120715.html" },
+  { name: "Hazo Haus washable 8x10 rug", room: "Office", qty: 1, cuft: 3, l: 120, w: 96, h: 0.25, lbs: 20, estimated: true, url: "https://www.amazon.com/dp/B0DKS922WX?ref=ppx_pop_mob_ap_share&th=1" },
+  { name: "Vintage 3x8 runner rug", room: "Other", qty: 1, cuft: 1.5, l: 96, w: 36, h: 0.25, lbs: 5, estimated: true, url: "https://www.amazon.com/dp/B0FBWVTM5Y?ref=ppx_pop_mob_ap_share&th=1" },
+  { name: "Lahome jute-look rug", room: "Dining Room", qty: 1, cuft: 2.5, l: 84, w: 60, h: 0.25, lbs: 3, estimated: true, url: "https://www.amazon.com/dp/B0CFL3HC71?ref=ppx_pop_mob_ap_share&th=1" },
+  { name: "RoomTalks mid-century rug", room: "Living Room", qty: 1, cuft: 3, l: 120, w: 96, h: 0.2, lbs: 6.6, estimated: true, url: "https://www.amazon.com/RoomTalks-Washable-Aesthetic-8x10-Contemporary/dp/B0DBLLP75B" },
+  { name: "BESTSWEETIE 8x10 rug", room: "Bedroom", qty: 1, cuft: 3, l: 120, w: 96, h: 0.25, lbs: 2.2, estimated: true, url: "https://www.amazon.com/dp/B0CD7CJC6F?ref=ppx_pop_mob_ap_share" },
+  { name: "Mohawk non-slip rug pad", room: "Other", qty: 3, cuft: 1, l: 120, w: 96, h: 0.25, lbs: 20, estimated: true, url: "https://www.amazon.com/Mohawk-Home-Surface-Hardwood-Surfaces/dp/B007T58OM0" },
+  { name: "Casper Element mattress (King)", room: "Bedroom", qty: 1, cuft: 35.2, l: 76, w: 80, h: 10, lbs: 87, estimated: true, url: "https://www.amazon.com/dp/B085H9Q11C?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1" },
+  { name: 'ARTPOWER 55" fluted TV console', room: "Living Room", qty: 1, cuft: 10.1, l: 55, w: 13, h: 25, lbs: 40.6, estimated: true, url: "https://www.amazon.com/dp/B0CJR8ST7T?ref=ppx_pop_mob_ap_share&th=1" },
+  { name: 'HANXIN 78" convertible sofa (open/assembled)', room: "Office", qty: 1, cuft: 45.8, l: 78, w: 39, h: 26, lbs: 104, estimated: true, url: "https://www.amazon.com/HANXIN-Convertible-Mattress-Fixed-Shape-Boneless/dp/B0FNMYJ664" },
+  { name: "Chuhay bed frame", room: "Bedroom", qty: 1, cuft: 0.4, l: 81.5, w: 3, h: 3, lbs: 67.48, estimated: true, url: "https://www.wayfair.com/furniture/pdp/17-stories-chuhay-413-bed-frame-w100098647.html" },
+  { name: "Chuhay Headboard", room: "Bedroom", qty: 1, cuft: 5.5, l: 76, w: 3, h: 41.3, estimated: true },
+  { name: "Christmas Tree", room: "Other", qty: 1, cuft: 7.5, l: 50, w: 16, h: 16, lbs: 45, estimated: true },
+];
+
+const REAL_CAR_ITEMS = [
+  { name: "Cat", priority: "must" },
+  { name: "Bikes" },
+  { name: "Clothes" },
+  { name: "Computers" },
+  { name: "Monitors" },
+  { name: "TVs" },
+  { name: "Cat Tree" },
+  { name: "Blankets", priority: "nice" },
+  { name: "Coffee Maker" },
+  { name: "Instant Pot", priority: "nice" },
+  { name: "Air fryer", priority: "nice" },
 ];
 
 function uid() {
@@ -373,13 +388,18 @@ export default function MovingInventory() {
         setItems(JSON.parse(raw).map((it) => ({ transport: "pod", ...it })));
       } else {
         // First-ever visit — seed with the known inventory
-        setItems(REAL_ITEMS.map((it) => ({
+        const podSeed = REAL_ITEMS.map((it) => ({
           id: uid(), name: it.name, room: it.room, qty: it.qty, cuft: it.cuft, transport: "pod",
           ...(it.l != null && { l: it.l }), ...(it.w != null && { w: it.w }), ...(it.h != null && { h: it.h }),
           ...(it.estimated && { estimated: true }),
           ...(it.url && { url: it.url }),
           ...(it.lbs != null && { lbs: it.lbs }),
-        })));
+        }));
+        const carSeed = REAL_CAR_ITEMS.map((it) => ({
+          id: uid(), name: it.name, room: "Other", qty: 1, cuft: 0, transport: "car",
+          ...(it.priority && { priority: it.priority }),
+        }));
+        setItems([...podSeed, ...carSeed]);
       }
     } catch (e) {
       setItems(REAL_ITEMS.map((it) => ({
