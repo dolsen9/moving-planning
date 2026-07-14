@@ -81,3 +81,9 @@ NeighborhoodScout, Walk Score) as convenience layers on top, not authorities.
   DOB portal UI is unreliable, the raw Open Data tables cover the same
   data and can be filtered by BIN (Building Identification Number, look
   this up via the address first).
+- **Reddit** (r/AskNYC, r/nyc, r/nycapartments, or an unrestricted search) —
+  search the address, building name, and landlord/management company name.
+  Useful for both landlord/building anecdotes (management responsiveness,
+  pests, disputes) and neighborhood-vibe questions under the Location
+  pillar. Weight this as anecdotal, not authoritative — look for threads
+  that corroborate each other rather than a single one-off complaint.

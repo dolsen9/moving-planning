@@ -93,6 +93,13 @@ prospective tenant to research on their own:
 - Certificate of Occupancy status and any illegal-conversion red flags
   (e.g. a "3-bedroom" that DOB records show as a legal 2-family).
 - Eviction filings or heat/hot-water complaint patterns if discoverable.
+- Search Reddit (r/AskNYC, r/nyc, r/nycapartments, plus a general search)
+  for the building's address and, if known, its name and management
+  company/landlord name. Tenant threads often surface things no official
+  record does — noise, pests, management responsiveness, disputes over
+  deposits. Treat individual anecdotes with appropriate skepticism (one
+  angry ex-tenant isn't a pattern), but a recurring complaint across
+  multiple threads is a real signal worth including.
 
 If a source is unreachable or returns nothing for this address, say so in
 the report rather than silently omitting the section — "no HPD violations
