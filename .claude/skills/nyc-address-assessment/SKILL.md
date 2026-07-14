@@ -85,10 +85,11 @@ prospective tenant to research on their own:
   registered owner/managing agent (HPD registration) and, if it takes more
   digging, the deed history (ACRIS). Landlords often hide behind
   building-specific LLCs.
-- Landlord portfolio history — if tools like JustFix's "Who Owns What" or
-  the Public Advocate's Worst Landlords Watchlist surface this owner or
-  their portfolio, say so plainly; a landlord with a pattern of neglect
-  across many buildings is a stronger signal than one-off violations.
+- Landlord portfolio history — check tools like JustFix's "Who Owns What",
+  the Public Advocate's Worst Landlords Watchlist, and Landlord Watchlist
+  (landlordwatchlist.com/buildings, searchable directly by this address) for
+  this owner or their portfolio; a landlord with a pattern of neglect across
+  many buildings is a stronger signal than one-off violations.
 - Certificate of Occupancy status and any illegal-conversion red flags
   (e.g. a "3-bedroom" that DOB records show as a legal 2-family).
 - Eviction filings or heat/hot-water complaint patterns if discoverable.

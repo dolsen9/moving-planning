@@ -69,6 +69,12 @@ NeighborhoodScout, Walk Score) as convenience layers on top, not authorities.
 - **NYC Public Advocate's Worst Landlords Watchlist**
   (pubadvocate.nyc.gov/landlordwatchlist) — annual list of the most-cited
   landlords citywide; worth a direct name check.
+- **Landlord Watchlist** (landlordwatchlist.com/buildings) — searchable by
+  building address or landlord/owner name; surfaces HPD violation counts,
+  associated LLCs/portfolio, and whether the owner has appeared on the
+  Public Advocate's watchlist. Check this specifically by address, not just
+  by owner name, since it's one of the few tools built for building-level
+  lookup rather than owner-level lookup.
 - **ACRIS** — for deed/ownership chain when HPD registration data is thin
   or the LLC ownership needs tracing further back.
 - **NYC Open Data — DOB Violations / DOB Complaints Received** — if the
