@@ -87,3 +87,17 @@ NeighborhoodScout, Walk Score) as convenience layers on top, not authorities.
   pests, disputes) and neighborhood-vibe questions under the Location
   pillar. Weight this as anecdotal, not authoritative — look for threads
   that corroborate each other rather than a single one-off complaint.
+- **Local journalism** — search the address, building name, and
+  landlord/management company name against:
+  - **THE CITY** (thecity.nyc) — nonprofit investigative outlet, strong on
+    tenant harassment, HPD/DOB enforcement failures, and landlord profiles.
+  - **Gothamist/WNYC** (gothamist.com) — general NYC news, good for
+    neighborhood development and building-specific incidents.
+  - **The Real Deal** (therealdeal.com) — real estate trade press; useful
+    for developer/landlord background, portfolio deals, and financing
+    trouble that wouldn't show up in tenant-facing sources.
+  - **Patch, Bklyner, and other hyperlocal outlets** — neighborhood-level
+    coverage of specific buildings/blocks that citywide outlets skip.
+  These are reported sources (named documents, on-record quotes), so they
+  generally carry more weight than a forum thread when they cover the same
+  claim.

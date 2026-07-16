@@ -100,6 +100,12 @@ prospective tenant to research on their own:
   deposits. Treat individual anecdotes with appropriate skepticism (one
   angry ex-tenant isn't a pattern), but a recurring complaint across
   multiple threads is a real signal worth including.
+- Search local journalism for the address, building name, and
+  landlord/management company name — outlets like THE CITY, Gothamist,
+  The Real Deal, and neighborhood-specific coverage (Patch, Bklyner, etc.)
+  regularly report on tenant harassment cases, construction disputes,
+  buyouts, and notable landlords, and carry more weight than a forum post
+  since it's reported and often names sources/documents.
 
 If a source is unreachable or returns nothing for this address, say so in
 the report rather than silently omitting the section — "no HPD violations
